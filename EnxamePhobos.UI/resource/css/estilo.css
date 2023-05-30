@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+/* configuração padrao para o site todo */
+body {
+    border: goldenrod solid thin;
+    background: url(../img/moroccan-flower.png);
+
+
+}
+
+/* configuração da scrollbar(barra de rolagem) */
+body::-webkit-scrollbar {
+    /* largura da scrollbar */
+    width: 4px;
+
+}
+
+body::-webkit-scrollbar-track {
+    /* cor de fundo da scrollbar */
+    background: rgb(255, 255, 255);
+
+}
+
+body::-webkit-scrollbar-thumb {
+    /* cor da scrollbar */
+    background-color: rgb(0, 0, 0);
+    /* arredondamento da scrollbar */
+    border-radius: 20px;
+
+
+}
+
+
+
+
+
+/* classe padrão de alinhamento */
+.site {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+
+
+
+/*  cores de fundo do cabeçalho  */
+header {
+    background-color: rgb(25, 25, 112);
+
+}
+
+
+
+
+/* barra de contato */
+.barra-contato {
+    background-color: rgb(43, 43, 145);
+
+}
+
+.barra-contato div {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.redeSociais {
+    display: flex;
+
+    margin-right: 5px;
+}
+
+.redeSociais li a img {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    padding-bottom: 12%;
+    padding-top: 18%;
+}
+
+.redeSociais li {
+    margin-right: 5px;
+}
+
+
+.ctt {
+    display: flex;
+    color: rgb(231, 198, 198);
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+.ctt h3 {
+    margin-right: 15px;
+}
+
+
+
+
+/* Menu */
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu ul {
+    display: flex;
+
+}
+
+.Menu ul li {
+    padding: 10px 0;
+    background: rgb(255, 0, 0) (179, 0, 98, 0.808);
+    margin: 2px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+
+}
+
+.Menu ul li:hover {
+    background-color: rgb(182, 103, 0);
+
+}
+
+
+
+.Menu ul li a {
+    text-decoration: none;
+    color: rgb(228, 208, 170);
+    padding: 13px;
+}
+
+
+
+.Menu h1 {
+    background: url(../img/royal_crown_set-05\ .svg) no-repeat;
+    align-self: auto;
+    width: 170px;
+    height: 100px;
+    text-indent: -9999;
+    margin-left: 10%;
+
+}
+
+
+
+
+
+/* banner */
+
+.banner {
+    background: url(../img/banner_black01.png);
+    height: 600px;
+    width: 100%;
+    border-top: goldenrod solid thin;
+    border-bottom: goldenrod solid thin;
+
+}
+
+.banner div div {
+
+    width: 550px;
+    text-align: start;
+    justify-content: space-around;
+
+}
+
+.textoBanner {
+    font-size: 65px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 115px;
+    font-weight: bold;
+}
+
+.sloganBanner {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* parte Explicação */
+.Explicacao {
+    background-color: #7676bf;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: goldenrod solid thin;
+
+}
+
+/* .Explicacao h1 {
+    background: url(../img/royal_crown_set-05\ .svg) no-repeat;
+    align-self: auto;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 400%;
+    top: 2.5%
+} */
+
+.Explicacao h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    width: 4%;
+    position: relative;
+    left: 29%;
+    padding-top: 2.5%
+}
+
+.Explicacao h2 img {
+    position: relative;
+    bottom: 47%;
+}
+
+.Explicacao p {
+    font-size: 15px;
+    width: 50%;
+    padding-bottom: 5%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Explicacao div div {
+    display: flex;
+}
+
+.Explicacao div div div p {
+    font-weight: 2%;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 200%;
+    padding-top: 12%;
+}
+
+.Explicacao div div div img {
+    border-radius: 20px;
+    border: rgb(255, 255, 255, 0.6) solid thin;
+    padding: 2.3%;
+}
+
+
+/* carrossel */
+.carrossel {
+
+    border: white solid thin;
+    max-width: 1200px;
+    margin: 10px auto;
+
+
+}
+
+.carrossel img {
+    border-radius: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.container img {
+    border-radius: 3%;
+    padding-bottom: 30px;
+
+}
+
+
+
+.container div p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.instagram {
+    background: linear-gradient(90deg, #ff9c66, #ff7a66 50%, #f464ab);
+    height: 33.75em;
+
+
+
+}
+
+.instagram div {
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+.instagram h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 2%;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    color: #fff;
+}
+
+
+.instagram div div {
+    border: white solid thin;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    width: 20%;
+
+
+}
+
+.insta {
+
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.instagram div div img {
+    width: 98%;
+    border-radius: 15px;
+
+}
+
+.instagram div div h3 {
+    padding-top: 29%;
+    text-align: start;
+
+}
+
+.botaoInsta {
+    width: 230px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+.botaoInsta a {
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(0, 0, 0);
+    padding: 8.7%;
+    border-radius: 20px;
+    transition: 0.4s;
+
+}
+
+/* footer */
+
+footer {
+    border-top: goldenrod solid thin;
+    background: rgb(43, 43, 145);
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.esq img {
+    padding-top: 40%;
+    width: 170px;
+    height: 100px;
+    background-size: cover;
+}
+
+.centro ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(228, 208, 170);
+
+}
+
+.centro ul {
+    padding-top: 20%;
+}
+
+.centro ul li {
+    padding: 7%;
+    text-align: center;
+}
+
+
+
+.direita ul {
+    position: relative;
+    top: 20%;
+
+}
+
+.redeSociaisFooter li a img {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+
+
+}
+
+.redeSociaisFooter li {
+    padding: 9%;
+
+}
+
+.redeSociaisFooter {
+    flex-direction: column;
+
+}
+
+@media not all and (max-width: 600px) {
+
+    .abrirMenu,
+    .fecharMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .Menu nav {
+        background: rgb(25, 25, 112, 0.9);
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        margin: 0;
+        top: 0;
+        max-width: 400px;
+        width: 60%;
+        right: -366px;
+        transition: right 0.5s ease-out;
+    }
+
+
+    .Menu ul li {
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .menuAtivo .Menu nav {
+        right: 0px;
+    }
+    .Menu ul {
+        flex-direction: column;
+    }
+
+    .fecharMenu {
+        background: url(../img/close.png);
+        background-size: cover;
+        padding: 25px;
+        margin: 5%;
+        border: 0;
+        display: block;
+    }
+
+    .abrirMenu {
+        background: url(../img/menu.png);
+        background-size: cover;
+        padding: 25px;
+        border: 0;
+        display: block;
+        margin-right: 10%;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .barra-contato div {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+
+    }
+
+    .ctt h3 {
+        margin-bottom: 4%;
+    }
+
+    .redeSociais li a img {
+        width: 43px;
+        height: 43px;
+        
+    }
+
+    .Explicacao {
+        padding: 8px 0;
+    }
+
+    .Explicacao h2 {
+        padding-top: 8%;
+        width: 16%;
+        left: 41%;
+    }
+
+    .Explicacao h2 img {
+        padding-bottom: 2%;
+    }
+
+    .Explicacao div div {
+        display: block;
+    }
+
+    .Explicacao img {
+        width: 95%;
+    }
+
+    .Explicacao div div div p {
+        padding-top: 12px;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .carrossel {
+        width: 83%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+
+    .insta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instagram h2 {
+        padding-top: 4%;
+        font-size: 132%;
+    }
+
+    .instagram {
+        height: auto;
+    }
+
+    .instagram div {
+        margin-bottom: 0;
+    }
+
+    .instagram div div {
+        width: 35%;
+        height: 50%;
+    }
+    
+    .botaoInsta {
+        display: none;
+    }
+    /* footer */
+
+    .rodape {
+        display: block;
+    }
+
+    .esq img {
+        padding-top: 5%;
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+    
+    }
+
+    .centro ul {
+        padding-top: 2%;
+    }
+
+    .centro ul li {
+        padding-top: 5%;
+    }
+
+    .direita ul {
+        display: flex;
+        flex-direction: inherit;
+        position: relative;
+        top: 20%;
+        padding-left: 24%;
+    }
+
+    .redeSociaisFooter li {
+        padding: 5%;
+    }
+
+}

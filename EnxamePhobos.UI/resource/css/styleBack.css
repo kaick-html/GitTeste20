@@ -1,0 +1,179 @@
+﻿
+
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url(../font/JosefinSans-VarialbleFont_wght.ttf);
+}
+
+/*#region global*/
+
+html {
+    font-family: 'JosefinSans';
+    font-size: 32px;
+}
+
+body {
+    font-size: 16px;
+    background: aliceblue;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+DropDownList {
+    margin: .5rem 0;
+}
+
+table {
+    color: black;
+    background: aliceblue;
+    margin: 0 auto;
+    border: aliceblue;
+    width: 90%;
+}
+
+    table th {
+        background: lightblue;
+        color: black;
+    }
+
+    table tr {
+    }
+
+    table td {
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+        table td input {
+            background: goldenrod;
+            color: aliceblue;
+            cursor: pointer;
+            transition: .5s;
+            padding: .5em;
+            border: none;
+            border-radius: 10px;
+        }
+
+ 
+
+ul {
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+span{
+    text-align:center;
+    display:block;
+    margin:.5em ;
+}
+
+
+/*#endregion*/
+
+/*#region classes*/
+
+/*manager User*/
+
+
+
+.barraSearch {
+    width: 75%;
+    height: 1rem;
+    margin: 1% 4%;
+}
+
+
+.lblTitulo {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-family: 'JosefinSans';
+}
+
+
+.liCadastro {
+    display: flex;
+    align-items: center;
+}
+
+.lbl {
+}
+
+.txtBox {
+    text-align: center;
+    padding-top: 1%;
+    width: 80%;
+    border: aliceblue;
+}
+
+
+
+.btnDefault {
+    background: goldenrod;
+    color: aliceblue;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: .5s;
+    border: none;
+    border-radius: 10px;
+    margin: 1% 2%;
+}
+
+    .btnDefault:hover {
+        background: lightblue;
+        color: darkred;
+        transition: .5s;
+    }
+
+
+
+/*pagina login*/
+
+.txtBoxLogin {
+    padding-top: 1%;
+    width: 80%;
+    border: aliceblue;
+    padding: .3rem;
+    margin: .2rem;
+}
+
+.divLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 2%;
+}
+
+.btnDefaultLogin {
+    background: goldenrod;
+    color: aliceblue;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: .5s;
+    border: none;
+    border-radius: 10px;
+    margin: 2% 4%;
+   
+}
+
+.btnDefaultLogin:hover {
+    background: lightblue;
+    color: darkred;
+    transition: .5s;
+}
+
+
+
+/*#endregion*/

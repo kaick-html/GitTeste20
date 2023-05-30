@@ -1,0 +1,6 @@
+C:\Users\kaick.asantos\source\repos\EnxamePhobos\EnxamePhobos.DTO\bin\Debug\EnxamePhobos.DTO.dll
+C:\Users\kaick.asantos\source\repos\EnxamePhobos\EnxamePhobos.DTO\bin\Debug\EnxamePhobos.DTO.pdb
+C:\Users\kaick.asantos\source\repos\EnxamePhobos\EnxamePhobos.DTO\obj\Debug\EnxamePhobos.DTO.csproj.AssemblyReference.cache
+C:\Users\kaick.asantos\source\repos\EnxamePhobos\EnxamePhobos.DTO\obj\Debug\EnxamePhobos.DTO.csproj.CoreCompileInputs.cache
+C:\Users\kaick.asantos\source\repos\EnxamePhobos\EnxamePhobos.DTO\obj\Debug\EnxamePhobos.DTO.dll
+C:\Users\kaick.asantos\source\repos\EnxamePhobos\EnxamePhobos.DTO\obj\Debug\EnxamePhobos.DTO.pdb

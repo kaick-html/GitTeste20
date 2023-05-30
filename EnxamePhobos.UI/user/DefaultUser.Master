@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DefaultUser.master.cs" Inherits="EnxamePhobos.UI.user.DefaultUser" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <link rel="stylesheet" href="../resource/css/styleBack.css" />
+    <title>Enxame Phobos</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+      <asp:Label ID="lblSession" runat="server" Text=""></asp:Label>
+
+</body>
+</html>
